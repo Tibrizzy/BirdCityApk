@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "152959284976",
+    "project_id": "birdcity-dda8a",
+    "storage_bucket": "birdcity-dda8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152959284976:android:05dae250ef38cd25bd7435",
+        "android_client_info": {
+          "package_name": "com.example.birdcity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHOWViRY7brAxvC-29-aodxePfexUlml8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

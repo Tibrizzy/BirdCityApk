@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F8FFE5">
+
+    <TextView
+        android:id="@+id/came"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="Camera"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toEndOf="@+id/ttttt"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ttttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="Bird City"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="677dp"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="2dp">
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="120dp"
+            android:layout_height="92dp"
+            app:srcCompat="@drawable/image" />
+
+        <TextView
+            android:id="@+id/textView3_awl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="African wattled lapwing"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="120dp"
+            android:layout_height="92dp"
+            app:srcCompat="@drawable/_82_sentinel_rock_thrush_tiff" />
+
+        <TextView
+            android:id="@+id/textView4_rccb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Red-chested cuckoo Birds" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="120dp"
+            android:layout_height="92dp"
+            app:srcCompat="@drawable/_0287510136_df0eb3e002_b" />
+
+        <TextView
+            android:id="@+id/textView5_srt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sentinal rock thrush" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="120dp"
+            android:layout_height="92dp"
+            app:srcCompat="@drawable/_800__1__1" />
+
+        <TextView
+            android:id="@+id/textView6_srb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Southern red bishop" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="120dp"
+            android:layout_height="92dp"
+            app:srcCompat="@drawable/hadeda_ibis_portrait_2" />
+
+        <TextView
+            android:id="@+id/textView7_hi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hadada ibis" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="120dp"
+            android:layout_height="92dp"
+            app:srcCompat="@drawable/_800_1" />
+
+        <TextView
+            android:id="@+id/textView8_cw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cape weaver" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="Setting"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ttttt"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
